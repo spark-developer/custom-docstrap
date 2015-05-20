@@ -1,7 +1,7 @@
 {
-  "name": "ink-docstrap",
-  "version": "0.4.12",
-  "decription": "A template for JSDoc3 based on Bootstrap and Bootswatch",
+  "name": "ink-docstrap-spark",
+  "version": "0.1",
+  "decription": "A fork taken from ink-docstrap version 0.4.12",
   "devDependencies": {
     "async": "~0.2.8",
     "grunt": "~0.4.1",
