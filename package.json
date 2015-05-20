@@ -1,6 +1,6 @@
 {
   "name": "ink-docstrap-spark",
-  "version": "0.1",
+  "version": "0.1.0",
   "decription": "A fork taken from ink-docstrap version 0.4.12",
   "devDependencies": {
     "async": "~0.2.8",
