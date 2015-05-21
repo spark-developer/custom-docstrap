@@ -1,4 +1,113 @@
-@import url('//fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700');
+@import url('//fonts.googleapis.com/css?family=Open+Sans:300,600,400');
+
+body {
+  font-family: "Open Sans", Calibri, Candara, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+  letter-spacing: 5px;
+}
+
+a {
+  cursor: pointer;
+  color: #eb5528;
+  font-weight: 400;
+  text-decoration: none;
+  outline: 0;
+}
+
+pre{
+  text-align: left;
+  margin: 0;
+  border-radius: 0;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #3a3e4d;
+  font-size: 12px;
+  color:#ffffff;
+}
+
+a {
+  cursor: pointer;
+  color: #008C8C;
+  font-weight: 400;
+  text-decoration: none;
+  outline: 0;
+}
+
+a:hover, a:active, a.clicked, a:focus {
+  text-decoration: none;
+  outline: 0;
+  color: #eb5528!important;
+}
+
+a[disabled] {
+  pointer-events: none;
+  cursor: default;
+}
+
+a.mono {
+  color: #333333;
+  text-transform: uppercase;
+}
+
+a:hover {
+  text-decoration: initial;
+}
+
+a.disabled{
+  pointer-events:none;
+  color: darkgrey;
+}
+
+li.disabled{
+  pointer-events:none;
+  color: darkgrey;
+}
+
+li[disabled] {
+  pointer-events: none;
+  cursor: default;
+}
+
+label {
+  font-weight: normal;
+}
+
+small {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+small {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+hr {
+  border-top: 1px solid #cccccc;
+}
+
+.menu-item li{
+  margin-bottom: 5px;
+}
+.menu-item a,.brand{
+  text-transform: uppercase;
+  color:#000000;
+}
+
+.brand{
+  position:fixed;
+  top:30px;
+}
+
+
+
+
 /*!
  * Bootstrap v2.3.2
  *
@@ -204,23 +313,7 @@ textarea {
     page-break-after: avoid;
   }
 }
-body {
-  margin: 0;
-  font-family: "Open Sans", Calibri, Candara, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 20px;
-  color: #555555;
-  background-color: #ffffff;
-}
-a {
-  color: #007fff;
-  text-decoration: none;
-}
-a:hover,
-a:focus {
-  color: #0066cc;
-  text-decoration: underline;
-}
+
 .img-rounded {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -2446,28 +2539,13 @@ table th[class*="span"],
 }
 .dropdown-menu > li > a {
   display: block;
-  padding: 3px 20px;
+  padding: 0 20px;
   clear: both;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 20px;
-  color: #999999;
   white-space: nowrap;
 }
-.dropdown-menu > li > a:hover,
-.dropdown-menu > li > a:focus,
-.dropdown-submenu:hover > a,
-.dropdown-submenu:focus > a {
-  text-decoration: none;
-  color: #ffffff;
-  background-color: #007af5;
-  background-image: -moz-linear-gradient(top, #007fff, #0072e6);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#007fff), to(#0072e6));
-  background-image: -webkit-linear-gradient(top, #007fff, #0072e6);
-  background-image: -o-linear-gradient(top, #007fff, #0072e6);
-  background-image: linear-gradient(to bottom, #007fff, #0072e6);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff007fff', endColorstr='#ff0072e6', GradientType=0);
-}
+
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
@@ -3336,15 +3414,13 @@ input[type="submit"].btn.btn-mini {
   margin-left: 0;
   margin-bottom: 20px;
   list-style: none;
+  position: fixed;
+  top:55px;
 }
 .nav > li > a {
   display: block;
 }
-.nav > li > a:hover,
-.nav > li > a:focus {
-  text-decoration: none;
-  background-color: #eeeeee;
-}
+
 .nav > li > a > img {
   max-width: none;
 }
@@ -5862,7 +5938,7 @@ a.thumbnail:hover {
   font-size: 220%;
   color: #007fff;
   font-weight: 700;
-  padding-top: 10px;
+  padding-top: 0;
   padding-bottom: 7px;
   display: block;
 }
