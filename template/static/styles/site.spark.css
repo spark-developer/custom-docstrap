@@ -5,6 +5,7 @@ body {
   font-size: 14px;
   font-weight: 400;
   color: #333333;
+  margin:0;
 }
 
 h1, h2, h3 {
@@ -104,11 +105,48 @@ hr {
 
 .brand{
   position:fixed;
-  top:30px;
+  top:10px;
 }
 
 h3{
   font-size: 16px;
+}
+
+
+@media screen and (max-width: 1250px){
+  .row-fluid .span10{
+    width:80%!important;
+  }
+}
+
+@media screen and (max-width: 1100px){
+  .row-fluid .span10{
+    width:75%!important;
+  }
+}
+
+@media screen and (max-width: 950px){
+  .row-fluid .span10{
+    width:70%!important;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .row-fluid .span10{
+    width:65%!important;
+  }
+}
+
+@media screen and (max-width: 650px){
+  .row-fluid .span10{
+    width:55%!important;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .row-fluid .span10{
+    width:55%!important;
+  }
 }
 
 
@@ -474,22 +512,27 @@ textarea {
 .row-fluid .span10 {
   width: 82.97872340425532%;
   *width: 82.92553191489361%;
+  float:right;
 }
 .row-fluid .span9 {
   width: 74.46808510638297%;
   *width: 74.41489361702126%;
+  float:right;
 }
 .row-fluid .span8 {
   width: 65.95744680851064%;
   *width: 65.90425531914893%;
+  float:right;
 }
 .row-fluid .span7 {
   width: 57.44680851063829%;
   *width: 57.39361702127659%;
+  float:right;
 }
 .row-fluid .span6 {
   width: 48.93617021276595%;
   *width: 48.88297872340425%;
+  float:right;
 }
 .row-fluid .span5 {
   width: 40.42553191489362%;
@@ -631,7 +674,7 @@ textarea {
 }
 .container-fluid {
   padding-right: 20px;
-  padding-left: 20px;
+  padding-left: 0;
   *zoom: 1;
 }
 .container-fluid:before,
@@ -730,29 +773,6 @@ h6 small {
   font-weight: normal;
   line-height: 1;
   color: #dfdfdf;
-}
-h1,
-h2,
-h3 {
-  line-height: 40px;
-}
-h1 {
-  font-size: 38.5px;
-}
-h2 {
-  font-size: 31.5px;
-}
-h3 {
-  font-size: 24.5px;
-}
-h4 {
-  font-size: 17.5px;
-}
-h5 {
-  font-size: 14px;
-}
-h6 {
-  font-size: 11.9px;
 }
 h1 small {
   font-size: 24.5px;
@@ -3419,7 +3439,7 @@ input[type="submit"].btn.btn-mini {
   margin-bottom: 20px;
   list-style: none;
   position: fixed;
-  top:55px;
+  top:35px;
 }
 .nav > li > a {
   display: block;
