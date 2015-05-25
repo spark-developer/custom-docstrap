@@ -6,6 +6,7 @@ body {
   font-weight: 400;
   color: #333333;
   margin:0;
+  line-height: 140%;
 }
 
 h1, h2, h3 {
@@ -105,13 +106,17 @@ hr {
 
 .brand{
   position:fixed;
-  top:10px;
+  top:30px;
 }
 
 h3{
   font-size: 16px;
 }
 
+.readme-section ul{
+  line-height: 30px;
+  margin: 20px 0 20px 40px;
+}
 
 @media screen and (max-width: 1250px){
   .row-fluid .span10{
@@ -757,9 +762,8 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 10px 0;
+  margin: 20px 0 40px;
   font-family: inherit;
-  font-weight: 300;
   line-height: 20px;
   color: #080808;
   text-rendering: optimizelegibility;
@@ -802,9 +806,7 @@ ol ol,
 ol ul {
   margin-bottom: 0;
 }
-li {
-  line-height: 20px;
-}
+
 ul.unstyled,
 ol.unstyled {
   margin-left: 0;
@@ -3439,7 +3441,10 @@ input[type="submit"].btn.btn-mini {
   margin-bottom: 20px;
   list-style: none;
   position: fixed;
-  top:35px;
+  top:57px;
+}
+.nav li a{
+  padding-bottom: 5px;
 }
 .nav > li > a {
   display: block;
