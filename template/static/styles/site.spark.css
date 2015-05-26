@@ -108,17 +108,32 @@ hr {
 }
 
 .brand{
-  position:fixed;
-  top:30px;
+
 }
 
 h3{
   font-size: 16px;
 }
+.readme-section h1{
+  margin-top:40px;
+}
+
+.readme-section h2,.readme-section h3{
+  font-size: 16px;
+  letter-spacing: 0;
+}
 
 .readme-section ul{
-  line-height: 30px;
-  margin: 20px 0 20px 40px;
+  line-height: 27px;
+  margin: 3px 0 24px 40px;
+}
+
+.readme-section ol li{
+  margin-bottom: 10px;
+}
+
+.readme-section ul li{
+  list-style-type: circle;
 }
 
 @media screen and (max-width: 1250px){
@@ -481,6 +496,7 @@ textarea {
 }
 .row-fluid {
   width: 100%;
+  margin-top:30px;
   *zoom: 1;
 }
 .row-fluid:before,
@@ -535,7 +551,7 @@ textarea {
 .row-fluid .span7 {
   width: 57.44680851063829%;
   *width: 57.39361702127659%;
-  float:right;
+  padding-left: 40px;
 }
 .row-fluid .span6 {
   width: 48.93617021276595%;
@@ -682,7 +698,7 @@ textarea {
 }
 .container-fluid {
   padding-right: 20px;
-  padding-left: 0;
+  padding-left: 10px;
   *zoom: 1;
 }
 .container-fluid:before,
@@ -765,7 +781,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 20px 0 40px;
+  margin: 20px 0;
   font-family: inherit;
   line-height: 20px;
   color: #080808;
@@ -3443,8 +3459,7 @@ input[type="submit"].btn.btn-mini {
   margin-left: 0;
   margin-bottom: 20px;
   list-style: none;
-  position: fixed;
-  top:57px;
+  margin-top: 10px;
 }
 .nav li a{
   padding-bottom: 5px;
