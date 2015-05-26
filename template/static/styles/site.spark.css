@@ -95,6 +95,9 @@ small {
 hr {
   border-top: 1px solid #cccccc;
 }
+.menu-item{
+  clear: both;
+}
 
 .menu-item li{
   margin-bottom: 5px;
