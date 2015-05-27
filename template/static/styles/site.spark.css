@@ -552,6 +552,7 @@ textarea {
   width: 57.44680851063829%;
   *width: 57.39361702127659%;
   padding-left: 40px;
+  max-width: 960px;
 }
 .row-fluid .span6 {
   width: 48.93617021276595%;
@@ -5954,7 +5955,6 @@ a.thumbnail:hover {
 .copyright {
   font-size: 90%;
   text-align: center;
-  color: #007fff;
   width: 100%;
   display: block;
 }
@@ -5973,11 +5973,10 @@ a.thumbnail:hover {
   display: block;
 }
 footer {
-  border-top: 1px solid #007fff;
   padding-top: 15px;
 }
 code {
-  background-color: none;
+  background-color: transparent;
   border: none;
   color: #ff7518;
 }
@@ -6019,7 +6018,7 @@ code {
   word-break: normal;
   word-wrap: normal;
   white-space: pre;
-  background-color: transparent;
+  background-color: #2b2f3e;
   border: none;
 }
 .sunlight-menu{
