@@ -101,14 +101,14 @@ hr {
 
 .menu-item li{
   margin-bottom: 5px;
+  margin-left:5px;
 }
 .menu-item a,.brand{
-  text-transform: uppercase;
   color:#000000;
 }
 
 .brand{
-
+  margin-left: 15px;
 }
 
 h3{
@@ -3457,7 +3457,7 @@ input[type="submit"].btn.btn-mini {
   margin-top: 5px;
 }
 .nav {
-  margin-left: 0;
+  margin-left: 15px;
   margin-bottom: 20px;
   list-style: none;
   margin-top: 10px;
@@ -6030,4 +6030,10 @@ code {
   font-size: 12px;
   line-height: 15px;
   padding: 10px 4px 9px!important;
+}
+
+@media (max-width: 1150px) {
+  .row-fluid .span7, .row-fluid .span2{
+    width:100%!important;
+  }
 }
