@@ -5971,6 +5971,7 @@ a.thumbnail:hover {
   padding-top: 0;
   padding-bottom: 7px;
   display: block;
+  line-height: 30px;
 }
 footer {
   padding-top: 15px;
@@ -6037,3 +6038,15 @@ code {
     width:100%!important;
   }
 }
+@media (max-width: 768px) {
+
+    h1{
+      font-size: 25px!important;
+      line-height: 25px;
+    }
+    h2{
+      font-size:19px;
+    }
+}
+
+
